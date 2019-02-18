@@ -39,4 +39,19 @@ public class StringCalculatorTest {
         // Assert
         assertThat(actual, is(expected));
     }
+
+    /**
+     * Test with number 2
+     */
+    @Test
+    public void testWith2() {
+        // Arrange
+        StringCalculator sc = new StringCalculator();
+        int expected = 2;
+        String value = "2";
+        // Act
+        int actual = sc.add(value);
+        // Assert
+        assertThat(actual, is(expected));
+    }
 }
