@@ -3,6 +3,9 @@ public class StringCalculator {
     }
 
     public int add(String numbers) {
-        return 0;
+        int total = 0;
+        int sum = Integer.parseInt(numbers);
+
+        return total + sum;
     }
 }
